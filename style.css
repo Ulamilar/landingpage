@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(31,41,55);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+li,a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-weight:400;
+    font-size:16px;
+}
+#headerlogo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f9faf8;
+    font-weight:50;
+    font-size:24px;
+}
+#headerlink{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e5e7eb;
+    font-weight:50;
+    font-size:18px;
+    
+}
+#maintext{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f9faf8;
+    font-weight:800;
+    font-size:48px;
+
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:40px 10%;
+    background-color: rgb(31,41,55);
+}
+.header li{
+    display:inline-block;
+}
+.container1{
+    display:flex;
+    background-color:rgb(31,41,55);
+}
+.container1>div{
+    background-color:#1F2937;
+    margin:20px;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10%;
+    color:white;
+}
+#placeholder{
+    margin:30px 10px;
+    border-color: rgb(168, 163, 163);
+    background-color: rgb(168, 163, 163);
+    border-style: solid;
+    color:#1f2937;
+}
+.button{
+    background-color: #3882F6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.container2{
+    background-color:white;
+    margin: 0px;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px ;
+
+}
+.container2text{
+    background-color:white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.square{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px 10%;
+    
+    color:black;
+    margin:0px;
+}
+.square>div{
+    margin:10px;
+    padding:80px;
+    font-size: 34px;
+    border-radius:20px;
+    border-color:green;
+    background-color: white;
+    border-style:solid;
+}
+#caption{
+    border: none;
+    color: #1f2937;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3{
+    background-color:#e5e7eb;
+    font-size:50px;
+    text-align: center;
+    margin:0;
+    padding:50px;
+
+}
+.container4{
+    background-color: white;
+    padding:90px;
+}
+.container4>div{
+    display:flex;
+    background-color: blue;
+    padding:30px;
+    color:white;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight:30px bold;
+    border-radius: 10px;
+}
+.buttonsignup{
+    background-color: #3882F6; 
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container5{
+    background-color:rgb(31,41,55);,
+    text-align: center;
+    padding:20px;
+    margin:0;
+}
+.footernote{
+    color:white;
+    text-align:center;
+}
